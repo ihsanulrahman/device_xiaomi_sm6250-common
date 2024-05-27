@@ -40,7 +40,9 @@ TARGET_BOOTLOADER_BOARD_NAME := atoll
 TARGET_NO_BOOTLOADER := true
 
 # Camera
+TORCH_STR_SUPPORTED := true
 MALLOC_SVELTE := true
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(COMMON_PATH):libcameraservice_extension.xiaomi_sm6250
 
 # Display
 TARGET_SCREEN_DENSITY := 420
