@@ -1,5 +1,6 @@
 # Camera
-vendor.camera.				u:object_r:vendor_camera_prop:s0
+vendor.camera.				            u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.perflock.enable   u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp.                  u:object_r:vendor_fingerprint_prop:s0
@@ -10,4 +11,3 @@ vendor.sys.thermal.                     u:object_r:vendor_thermal_normal_prop:s0
 
 # WiFi
 persist.vendor.cnss-daemon.             u:object_r:vendor_wcnss_service_prop:s0
-
