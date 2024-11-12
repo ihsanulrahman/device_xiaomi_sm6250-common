@@ -138,10 +138,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
