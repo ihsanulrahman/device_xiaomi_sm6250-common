@@ -88,6 +88,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.qcom \
     vendor.qti.hardware.display.allocator-service
 
+# Dolby
+$(call inherit-product, vendor/oneplus/dolby/dolby.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
