@@ -585,4 +585,7 @@
          with HWC 2.0 or higher. -->
     <bool name="config_nightDisplayAvailable">true</bool>
     
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
+   
 </resources>
