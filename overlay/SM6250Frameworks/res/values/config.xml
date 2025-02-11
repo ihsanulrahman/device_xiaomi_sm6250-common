@@ -588,4 +588,7 @@
     <bool name="config_dozePulseProximity">true</bool>
     <bool name="config_deviceHaveWakeUpProximity">true</bool>
 
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
+   
 </resources>
