@@ -156,6 +156,7 @@ include device/voltage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 include hardware/sony/timekeep/sepolicy/SEPolicy.mk
+include $(COMMON_PATH)/sepolicy/SEPolicy-diag.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Verified Boot
